@@ -1,0 +1,224 @@
+a:hover, a:focus{
+  text-decoration: none;
+}
+
+#aboutInfo {
+  font-size: 20px;
+}
+
+.aboutMe {
+  background-color: #002045;
+  box-shadow: 0px 10px 50px #000000;
+  padding-top: 15% !important;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://www.planwallpaper.com/static/images/518151-backgrounds_W3qVPu2.jpg");
+  background-position:center;
+  background-size:cover;
+  background-attachment:fixed;
+  color: #FFFFFF;
+  font-family: Raleway;
+}
+
+.contact {
+  background-color: #002045;
+  opacity: 0;
+  border-bottom: none !important;
+  box-shadow: 0px -40px 50px #000;
+}
+
+#footer {
+  background-color: #000520;
+  color: #CCCCCC;
+  box-shadow: 0px 0px 15px #002;
+  padding: 1%;
+  width: 100%;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+header {
+  background-color: #111;
+  opacity: 1;
+  padding: 3%;
+  position: fixed;
+  top: 0;
+  transition: padding 500ms;
+  width: 100%;
+  z-index: 100;
+}
+
+.logoPic {
+  box-shadow: none;
+  transition-property: width, box-shadow;
+  transition-duration: 500ms;
+}
+
+.logoPic:hover{
+  box-shadow: 0px 0px 20px #200;
+}
+
+.logos {
+  display: block;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.mainSections {
+  padding: 5%;
+  border-bottom: 30px solid black;
+}
+
+nav a{
+  text-transform: uppercase;
+}
+nav li {
+  display: inline-block;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks {
+  text-decoration: none;
+  color: #fff;
+  padding: 0%;
+  transition-property: color;
+  transition-duration: 500ms;
+  margin-right: 10px;
+}
+
+.navLinks:hover{
+  color: #aaa;
+}
+
+.occupation {
+  font-family: Lobster;
+  font-size: 40px;
+  margin: 3%;
+}
+
+.pageDivider {
+  background-color: #3B4660;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px #101;
+  margin: 10% 0% 0% 0%;
+  opacity: 0;
+}
+
+.portfolio {
+  text-align: center;
+  opacity: 0;
+}
+
+.removePadding{
+  padding: 1%;
+}
+
+.sectionLinks {
+  text-align: right;
+}
+
+.submit {
+  background-color: #358;
+  color: #fff;
+  border: 1px solid #136;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  transition-property: background-color, box-shadow, border;
+  transition-duration: 500ms;
+  width: 65%;
+}
+
+.submit:hover{
+  background-color: #579;
+  box-shadow: 0px 0px 10px #002;
+  border: 1px solid #558;  
+}
+
+.thumbnail {
+  box-shadow: -10px 10px 50px #000;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.thumbnail .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #244591;
+  color: #CCCCCC !important;
+  opacity: 0;
+  text-align: center;
+  z-index: 2;
+  width: 50%;
+  height: 50%;
+  padding: 1%;
+}
+
+.title {
+  float: left;
+  margin-top: 0%;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 15% 5% 3% 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #aboutInfo {
+    font-size: 12px;
+    margin: 1%;
+  }
+  body {
+    text-align: center;
+    font-size: 14px;
+  }
+  header {
+    font-size: 10px;
+    padding:3%;
+  }
+  .logoPic {
+    width: 40%;
+    margin-top: 5%;
+  }
+  .logoPic:hover{
+    width: 42%;
+  }
+  .occupation {
+    font-size: 16px;
+  }
+  p {
+    display: none;
+  }
+  .title {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+  .thumbnail{
+    margin-left:auto;
+    margin-right:auto;
+    width: 75%;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .logoPic {
+    width: 75%;
+  }
+  .thumbnail{
+    width:78%;
+  }
+}
