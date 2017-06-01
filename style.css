@@ -13,7 +13,7 @@ a:hover, a:focus{
   text-align: center;
 }
 
-body {
+#body {
   background-image: url("https://www.planwallpaper.com/static/images/518151-backgrounds_W3qVPu2.jpg");
   background-position:center;
   background-size:cover;
